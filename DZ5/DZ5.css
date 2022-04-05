@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+
+.body {
+width: 100%;
+height: 900px;
+margin: auto;
+top: 0;
+left: 0;
+overflow: auto;
+white-space: nowrap;
+text-align: center;
+background-color: rgba(245, 245, 245, 1);
+;
+}
+
+.body::before {
+display: inline-block;
+vertical-align: middle;
+content: '';
+}
+
+
+.body__div {
+width: 1170px;
+height: 900px;
+margin: 0 15px;
+display: inline-block;
+white-space: normal;
+vertical-align: middle;
+text-align: left;
+}
+
+.body__header {
+width: 1170px;
+height: 321px;
+margin: 0 15px;
+box-sizing: border-box;
+}
+
+.body__header-title {
+width: 1170px;
+height: 150px;
+margin: auto;
+box-sizing: border-box;
+display: flex;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+align-items: center;
+justify-content: center;
+}
+
+.body__header-underscore {
+width: 170px;
+height: 0px;
+display: flex;
+border: 1px solid #EC7979;
+}
+
+.body__header-text {
+margin-top: 40px;
+margin-left: 30%;
+display: flex;
+font-family: 'Raleway';
+font-size: 18px;
+color: #86878B;
+}
+.body__section {
+display: flex;
+justify-content: space-around;
+}
+
+.body__first {
+display: inline-block;
+text-align: center;
+
+}
+
+.upper {
+width: 370px;
+height: 60px;
+display: flex;
+border: 2px #F5F5F5 solid;
+background-color: #333333;
+font-family: Open Sans;
+font-weight: 700;
+font-size: 24px;
+color: white;
+align-items: center;
+justify-content: center;
+}
+
+.dollars {
+width: 370px;
+height: 100px;
+display: flex;
+border: 2px #F5F5F5 solid;
+background-color: #333333;
+font-family: Raleway;
+font-weight: 700;
+font-size: 36px;
+color: white;
+align-items: center;
+justify-content: center;
+}
+
+.freetolife {
+width: 370px;
+height: 50px;
+display: flex;
+border: 2px #F5F5F5 solid;
+background-color: #333333;
+font-family: Raleway;
+font-weight: 400;
+font-size: 18px;
+color:  rgba(255, 255, 255, 0.5);
+align-items: center;
+justify-content: center;
+}
+
+.space {
+width: 370px;
+height: 50px;
+display: flex;
+border: 2px #F5F5F5 solid;
+background-color: rgba(255, 255, 255, 1);
+font-family: Raleway;
+font-weight: 400;
+font-size: 18px;
+color:  rgba(134, 135, 139, 1);
+align-items: center;
+justify-content: center;
+}
+
+.body__second {
+display: inline-block;
+box-shadow: 0px 10px 10px rgb(0 0 0 / 50%);
+position: relative;
+bottom: 30px;
+}
+
+.body__third {
+display: inline-block;
+}
