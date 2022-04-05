@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+
+.body {
+width: 100%;
+height: 100%;
+margin:auto;
+position: absolute;
+top: 0;
+left: 0;
+overflow: auto;
+white-space: nowrap;
+text-align: center;
+font-size: 0;
+}
+
+.body::before {
+height: 100%;
+display: inline-block;
+vertical-align: middle;
+content: '';
+}
+
+.body__div {
+width: 1170px;
+height: 600px;
+margin: 0 15px;
+display: inline-block;
+white-space: normal;
+vertical-align: middle;
+text-align: left;
+}
+
+.body__header {
+height: 50px;
+box-sizing: border-box;
+}
+
+.body__header-tab1 {
+width: 201px;
+height: 50px;
+box-sizing:border-box;
+font-family: 'Open Sans';
+font-size: 14px;
+background-color: white;
+border: 1px #C6CBCD solid;
+border-bottom: none;
+border-radius: 5px 5px 0 0;
+cursor: pointer;
+float: left;
+}
+
+.body__header-tab23 {
+width: 201px;
+height: 50px;
+box-sizing:border-box;
+font-family: 'Open Sans';
+font-size: 14px;
+background-color: white;
+border: 0;
+border-bottom: 1px #c6cbcd solid;
+cursor: pointer;
+float: left;
+}
+
+.body__header-tab23:active {
+border: 1px #C6CBCD solid;
+border-bottom: none;
+border-radius: 5px 5px 0 0;
+}
+
+.body__header-div {
+width: 567px;
+height: 49px;
+display: inline-block;
+border-top: none;
+border-right: none;
+border-bottom: 1px #C6CBCD solid;
+border-left: none;
+}
+
+.body__section {
+width: 1168px;
+height: 501px;
+border: 1px #C6CBCD solid;
+border-top: none;
+}
+
+.body__section-img {
+width: 470px;
+height: 501px;
+float: right;
+}
+
+.body__section-div {
+width: 570px;
+height: 124px;
+display: inline-block;
+margin-left: 100px;
+line-height: 124px;
+}
+
+.body__section-title {
+font-family: 'Open Sans';
+font-size: 30px;
+display: block;
+}
+
+.body__section-div2 {
+width: 570px;
+height: 210px;
+display: inline-block;
+margin-left: 100px;
+line-height: 124px;
+}
+
+.body__section-title2 {
+font-family: 'Raleway';
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+}
+
+.body__section-div3 { 
+width: 270px;
+height: 58px;
+display: inline-block;
+margin-top: 27px;
+margin-left: 100px;
+background-color: #EC7979;
+border: 2px #EC7979 solid;
+}
+
+.body__section-div3:active {
+background: #AB4949;
+border: 2px #ab4949 solid;
+}
+
+.body__section-download {
+width: 270px;
+height: 58px;
+font-family: 'Open sans';
+font-size: 18px;
+line-height: 56px;
+text-align: center;
+display: inline-block;
+margin: auto;
+color: white;
+cursor: pointer;
+}
+
+.body__section-download:active {
+color: white;
+}
