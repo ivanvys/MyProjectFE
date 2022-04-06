@@ -117,26 +117,31 @@ background-color: #EC7979;
 border: 2px #EC7979 solid;
 }
 
-.body__section-div3:active {
-background: #AB4949;
-border: 2px #ab4949 solid;
-}
 
 .body__section-download {
 width: 270px;
 height: 58px;
+position: relative;
+right: 113px;
+top: 52px;
 font-family: 'Open sans';
 font-size: 18px;
-line-height: 56px;
-text-align: center;
-display: inline-block;
-margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+background: #EC7979;
 color: white;
+margin: 0 auto;
 cursor: pointer;
+}
+.body__section-download:hover {
+background: #AB4949;
 }
 
 .body__section-download:active {
-color: white;
+box-shadow: inset 0px 0px 10px #AB4949;
+background: #EC7979;
+border: 1px solid;
 }
 
 .body__title {
@@ -191,7 +196,7 @@ bottom: 10px;
 border-radius: 40px;
 }
 
-#Ellipse {
+#ellipse {
 width: 92px;
 height: 92px;
 position: relative;
@@ -241,10 +246,17 @@ left: 142px;
 bottom: 12px; 
 }
 
-.body__item-pricingoptions {
+.pricing {
+width: 1508px;
 background-color: rgba(245, 245, 245, 1);
-position: relative;
 top: 250px;
+position: relative;
+display: flex;
+justify-content: center;
+right: 170px;
+}
+
+.body__item-pricingoptions {
 height: 1000px;
 }
 
@@ -316,7 +328,7 @@ transform: scale(1.2);
 }
 
 #pricing__item:active {
-border: 1px #000000 solid;
+border: 1px white solid;
 }
 
 .body__item-customers {
@@ -378,11 +390,13 @@ left: 10px;
 
 
 .body__item-design {
-width: 1170px;
+width: 1508px;
 height: 442px;
 background-image: url(image/town.jpg);
 position: relative;
 top: 30px;
+right: 170px;
+
 }
 
 .body__item-design:after {
@@ -437,6 +451,6 @@ border: 2px rgba(236, 121, 121, 1) solid;
 
 #body__item-design-button:active {
 border: 2px rgba(171, 73, 73, 1) solid;
-background: rgba(171, 73, 73, 1);
+background: #AB4949;
 color: white;
 }
