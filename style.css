@@ -144,6 +144,8 @@ text-decoration: none;
 height: 951px;
 background: url(image/street.jpg);
 position: relative;
+background-size: contain;
+background-repeat: round;
 }
 
 .firstpage__section:after {
