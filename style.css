@@ -136,6 +136,14 @@ left: 664px;
 cursor: pointer;
 }
 
+.firstpage__header-menu:hover {
+background: rgba(236, 121, 121, 1);
+}
+
+.firstpage__header-menu:active {
+background: rgba(171, 73, 73, 1);
+}
+
 .link {
 text-decoration: none;
 }
