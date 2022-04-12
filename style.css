@@ -6,6 +6,10 @@ width: 1170px;
 margin: 0 auto;
 }
 
+html {
+scroll-behavior: smooth;
+}
+
 .body {
 width: 1510px;
 height: 100%;
