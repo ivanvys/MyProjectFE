@@ -1,7 +1,50 @@
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
+.body {
+width: 100%;
+}
+
+.firstpage {
+width: 100%;
+}
+
+.firstpage__section {
+width: 100%;
+height: 768px;
+background-size: cover;
+
+}
+
+.firstpage__header {
+width: 100%;
+}
+
 .firstpage__header-menu {
-background: red;
-color: red;
-font-family: 'Times New Roman', Times, serif;
+left: 362px;
+}
+
+.firstpage__section-center-form {
+width: 398px;
+}
+
+.firstpage__section-center-firstparagraphcopies {
+display: flex;
+width: 670px;
+height: 168px;
+margin: 0;
+font-family: 'Raleway';
+font-size: 36px;
+font-weight: 500;
+line-height: 42px;
+letter-spacing: 0;
+text-align: left;
+color: white;
+position: relative;
+top: 90px;
+
+
+}
+
+.firstpage__section-center-firstparagraph {
+display: none;
 }
 }
