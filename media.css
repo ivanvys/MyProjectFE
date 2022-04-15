@@ -1,0 +1,7 @@
+@media (max-width: 600px) {
+.firstpage__header-menu {
+background: red;
+color: red;
+font-family: 'Times New Roman', Times, serif;
+}
+}
